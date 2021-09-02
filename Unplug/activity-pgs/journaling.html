@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Unplug</title>
+    <link href="../style.css" href="stylea.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js">
+    </script>
+    <script src="ajs.js"></script>
+    
+
+  </head>
+  <style>
+    .sources {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      color: black;
+      
+    }
+    #sources {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      
+    }
+    </style>
+  <body>
+    <div class="line">
+    <header>
+      <div>
+         <img src= "unpluga.png" style = 'width: 100px' 'height:100px'>
+      </div>
+      <div>
+         <h1 class = "title" >Unplug</h1>
+      </div>
+         <!-- <img src = "unplug.png" style = 'width: 400px' 'height:300px'> -->
+    </header>
+     <span class= "menuOpen" style = 'cursor:pointer'>&#9776; Menu</span>
+    </div>
+    <div class= "bar">
+      <!-- <nav> -->
+          <!-- <ul class='page-links'> -->
+         
+            <a href = "../index.html" > Home </a>
+            <a href = "../activities.html"> Activities</a>
+            <a href = "../music.html"> Music </a> 
+            <span class = "closeBar" style = 'cursor:pointer'>&#10005</span>
+          <!-- </ul> -->
+      <!-- </nav> -->
+    </div>
+
+  <section class = "journal">
+    <div class = "diary">
+      <center><h2> Get Down Your Thoughts! </h2></center>
+      <center><form>
+      <label>Write down whatever you are feeling and hit submit. <br> Get all of those feelings down and let them go</label>
+      <br> <br>
+      <textarea id = "myTextArea"
+                  rows = "20"
+                  cols = "50">Thoughts</textarea><br>
+      <input class = "formSubmit" type = "submit">     
+      </form></center>
+    </div>
+    <img id= "journalMoon" src = "https://i.pinimg.com/originals/9d/f1/4d/9df14d5453478ebe444ac91b4ea3f854.gif">
+    <div class = "generator">
+      <!--random quote generator-->
+        <center><h2> Journaling Prompts </h2></center>
+        <center><p> Need some inspiration? Click the button to get a prompt</p></center>
+        <br>
+        <center><button class="getQuote" style= "color:black"> PROMPT </button></center>
+         <h4 class = "journalPrompt" ></h4>
+         <!--https://www.freecodecamp.org/news/creating-a-bare-bones-quote-generator-with-javascript-and-html-for-absolute-beginners-5264e1725f08/-->
+      </div>
+    </section>
+      <h2 class = "message"></h2>
+    <p style = "color:black" id = "sources"><strong>Where these quotes came from:</strong></p>
+    <a class = "sources" href = "https://healingbrave.com/blogs/all/journaling-prompts-for-stress-relief">Source 1</a>
+    <a class = "sources" href = https://www.createwritenow.com/journal-writing-blog/10-quick-journal-prompts-to-calm-your-mind>Source 2</a>
+  </body>

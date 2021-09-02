@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #E1EEFB;
+  color: #87CF30;
+}
+
+header{
+  font-family: 'Neucha', cursive;
+  display: flex;
+  flex-direction: row;
+  color: black;
+  align-items: center;
+  font-size: 40px;
+  height: 100px; 
+  margin-left:10px; 
+}
+
+.title{
+  margin-left: 500px;
+}
+
+/*nav bar authored by rishika*/ 
+.line{
+  display: flex;
+  background-color: #62b6cbbd; 
+
+}
+span.menuOpen{
+  font-size: 25px;
+  align-items:center;
+  /* top: 0px; */
+  margin-left: 490px;
+  margin-top: 30px;
+  margin-right: 50px;
+  color:black;
+
+}
+.bar .closeBar{
+  position: absolute;
+  top: 0px;
+  right: 200px;
+  font-size: 30px;
+  color: white;
+}
+.bar{
+  position: fixed;
+  top:0px;
+  right: 0px;
+  height: 100%;
+  width: 0px;
+  background-color: #62b6cb;
+  /* background-color: rgba(94, 107, 123, 0.87); */
+  padding-top : 100px;
+}
+
+.bar a{
+  padding: 8px 8px 8px 64px;
+  font-size: 20px;
+  color: white;
+  display:block;
+  margin-top: 0px;
+  text-decoration: none;
+ 
+}
+
+.bar a:hover{
+  background-color: white;
+  color: black;
+}
+
+
+
+
+/* Music Page CSS */
+
+/* img{
+  border-radius: 50%;
+  width: 300px;
+} */
+section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+
+}
+div{
+  display : block;
+
+}
+
+/* .categories{
+  width: 100%;
+  padding: 250px; 
+} */
+
+
+
+/* .playlistsBird{
+  justify-content: space-around;
+  flex-direction: row;
+  padding : 100px;
+  display: none;
+} */
+
+.Image{
+  border-radius : 30%;
+  width: 300px;
+  height:200px;
+  flex-direction: row;
+
+}
+
+
+iframe{
+  width: 300px;
+  
+}
+/* h2{
+  background-image: url("https://i.kfs.io/album/global/61693151,0v1/fit/500x500.jpg");
+  
+  background-size: 300px 200px;
+  padding: 50px;
+} */
+
+h3{
+  font-size: 50px;
+  /* background-color: white; */
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+}
+
+button{
+margin: auto;
+padding: 10px;
+font-family: 'Amatic SC', cursive;
+font-size: 30px; 
+background-color: rgba(94, 107, 123, 0.5);
+border-radius: 20%;
+
+}
+
+.natureImages, .instrumentalImages, .cheerfulImages{
+  display: flex;
+  width: 2000px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.natureButtons, .instrumentalButtons, .cheerfulButtons{
+  display: flex;
+  width: 2000px;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.playlists{
+  display: flex;
+  width: 2000px;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: 1px black solid; */
+  padding-top: 20px;
+}
+
+/* 
+.nature{
+  padding: 100px;
+} */
